@@ -1,8 +1,10 @@
+$text-color: #dcd7c9;
+
 .projects {
   margin-top: 15em;
   h1 {
     font-size: 128px;
-    color: rgba(228, 220, 207);
+    color: $text-color;
 
     text-shadow: 0px 4px 30px rgb(29, 28, 28);
     margin-bottom: 2%;
@@ -10,7 +12,7 @@
   }
   .container {
     .card {
-      background-color: #e4dccf;
+      background-color: #dcd7c9;
       border: 1px solid #e4dccf;
       img {
         width: 286px;

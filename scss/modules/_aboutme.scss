@@ -1,9 +1,11 @@
+$text-color: #dcd7c9;
+
 .aboutMe {
   margin-top: 15em;
   .container-fluid {
     h1 {
       font-size: 128px;
-      color: rgba(228, 220, 207);
+      color: $text-color;
 
       text-shadow: 0px 4px 30px rgb(29, 28, 28);
 
@@ -15,11 +17,11 @@
     width: 50%;
     left: 25%;
     border-radius: 5px;
-    background: #576f72;
+    background: $primary-color;
     box-shadow: 0px 10px 45px 5px rgba(0, 0, 0, 0.8);
     p {
       padding: 3%;
-      color: #e4dccf;
+      color: $text-color;
       line-height: 26px;
       font-family: 'EB Garamond';
       font-style: normal;

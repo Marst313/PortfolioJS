@@ -127,7 +127,13 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 // reset
+
+// variable
+$primary-color: #2c3639;
+$text-color: #dcd7c9;
+
 @font-face {
   font-family: Roboto Slab;
   src: url(/font/roboto-slab/RobotoSlab-Regular.ttf);
@@ -139,8 +145,21 @@ table {
 
 body {
   font-family: Roboto Slab;
+  background: linear-gradient(
+    160deg,
+    rgba(53, 64, 68, 1) 0%,
+    rgba(70, 85, 89, 1) 10%,
+    rgba(74, 91, 96, 1) 20%,
+    rgba(79, 97, 102, 1) 30%,
+    rgba(97, 118, 125, 1) 40%,
+    rgba(119, 149, 158, 1) 50%,
+    rgba(97, 118, 125, 1) 60%,
+    rgba(79, 97, 102, 1) 70%,
+    rgba(74, 91, 96, 1) 80%,
+    rgba(70, 85, 89, 1) 90%,
+    rgba(53, 64, 68, 1) 100%
+  );
 
-  background-image: url(/image/background.jpg);
   background-repeat: no-repeat;
   background-size: 300vh;
 }
@@ -157,6 +176,7 @@ body {
 @import 'mediaQueries/projects';
 @import 'modules/footer';
 @import 'mediaQueries/footer';
+
 @keyframes myrotation {
   0% {
     transform: rotateY(120deg);

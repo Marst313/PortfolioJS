@@ -40,19 +40,11 @@
       align-items: center;
       align-self: center;
 
-      a {
-        text-decoration: none;
-        color: #e4dccf;
-        &:hover {
-          text-decoration: underline;
-        }
-      }
       p {
         margin-top: 2%;
 
         padding: 3%;
       }
     }
-    background-color: #576f72;
   }
 }

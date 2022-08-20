@@ -1,6 +1,10 @@
+// variable
+$primary-color: #2c3639;
+$text-color: #dcd7c9;
+
 .navbar {
-  border-bottom: 3px solid #30393a;
-  background-color: #576f72;
+  border-bottom: 3px solid #191b1b;
+  background-color: $primary-color;
 
   .navbar-brand {
     margin-left: 2%;
@@ -13,25 +17,28 @@
     }
   }
   a {
-    color: #e4dccf;
+    color: $text-color;
     text-shadow: 2px 2px #171c1c;
   }
   .navbar-nav {
-    margin-left: 20%;
+    margin-left: 25%;
 
     li {
       align-items: center;
       a {
         font-size: 24px;
         &:hover {
-          color: transparent;
+          color: #dcd7c954;
+        }
+        &:visited {
+          color: $text-color;
         }
       }
     }
   }
   button {
-    background-color: #7c9ea3;
+    background-color: #3f4e4f;
     color: transparent;
-    border: 3px solid #3b4b4d;
+    border: 3px solid #161c1d;
   }
 }

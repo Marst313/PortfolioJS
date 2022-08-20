@@ -1,9 +1,12 @@
+// variable
+$primary-color: #2c3639;
+$text-color: #dcd7c9;
 .hero {
   margin-top: 8%;
   //   background-color: red;
 
   h1 {
-    color: #e4dccf;
+    color: $text-color;
     font-size: 32px;
     line-height: 50px;
     text-shadow: 2px 2px #576f72;
@@ -23,38 +26,27 @@
     font-weight: 800;
     font-size: 15px;
     line-height: 20px;
-    color: rgb(197, 205, 205);
+    color: $text-color;
   }
   .photo {
     img {
       margin-left: 35%;
-      background: linear-gradient(
-        0deg,
-        rgba(84, 193, 207, 1) 0%,
-        rgba(85, 181, 193, 0.799614914325105) 20%,
-        rgba(85, 172, 183, 0.5979342420561975) 40%,
-        rgba(86, 147, 155, 0.4018558106836485) 55%,
-        rgba(87, 135, 141, 0.6007353625043768) 70%,
-        rgba(87, 123, 128, 1) 85%,
-        rgba(87, 111, 114, 0.7968137938769257) 100%
-      );
+      background: $primary-color;
       width: 300px;
       height: 300px;
       box-shadow: 0px 0px 25px 5px black;
       border-color: transparent;
 
       &:hover {
-        animation: myrotation 1s forwards;
-        filter: grayscale(0);
-        box-shadow: 1px 1px 20px 0 rgba(0, 0, 0);
+        box-shadow: 0px 0px 45px 5px rgba(0, 0, 0);
       }
     }
   }
   .row {
     button {
       font-size: 12px;
-      background-color: #444647;
-      color: #f0ebe3;
+      background-color: $primary-color;
+      color: $text-color;
       border-color: #f0ebe3;
       border-width: 3px;
       border-radius: 10px;
