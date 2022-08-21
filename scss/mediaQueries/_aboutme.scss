@@ -16,6 +16,13 @@
   //   * {
   //     background-color: green;
   //   }
+  .aboutMe {
+    .container-fluid {
+      h1 {
+        font-size: 128px;
+      }
+    }
+  }
 }
 
 // Small devices (landscape phones, less than 768px)
@@ -39,9 +46,7 @@
         padding: 3%;
 
         line-height: 26px;
-        font-family: 'EB Garamond';
         font-style: normal;
-        font-weight: 800;
         font-size: 20px;
       }
     }
@@ -57,7 +62,6 @@
     .container-fluid {
       h1 {
         font-size: 68px;
-        margin-left: 20%;
       }
     }
     .container {
@@ -69,9 +73,8 @@
       p {
         padding: 3%;
         line-height: 26px;
-        font-family: 'EB Garamond';
+
         font-style: normal;
-        font-weight: 800;
         font-size: 20px;
       }
     }

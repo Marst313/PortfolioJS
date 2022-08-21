@@ -16,11 +16,6 @@
   // * {
   //   background-color: green;
   // }
-  .skills {
-    h1 {
-      margin-left: 28%;
-    }
-  }
 }
 
 // Small devices (landscape phones, less than 768px)
@@ -29,13 +24,9 @@
   //   background-color: pink;
   // }
   .skills {
-    margin-left: 10%;
     img {
       width: 120px;
       height: 120px;
-    }
-    h1 {
-      margin-left: 15%;
     }
   }
 }
@@ -47,13 +38,12 @@
   // }
   .skills {
     margin-top: 40em;
-    margin-left: -1%;
+
     img {
       width: 80px;
       height: 80px;
     }
     h1 {
-      margin-left: 25%;
       font-size: 68px;
     }
   }
