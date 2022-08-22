@@ -41,8 +41,11 @@ $text-color: #eeeeee;
     }
   }
   button {
-    background-color: #3f4e4f;
+    background-color: #0f1212;
     color: transparent;
-    border: 3px solid #161c1d;
+    border: 2px solid $text-color;
+    &:hover {
+      opacity: 0.8;
+    }
   }
 }

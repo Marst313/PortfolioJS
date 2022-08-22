@@ -181,9 +181,12 @@ body {
   color: #eeeeee;
 }
 .navbar button {
-  background-color: #3f4e4f;
+  background-color: #0f1212;
   color: transparent;
-  border: 3px solid #161c1d;
+  border: 2px solid #eeeeee;
+}
+.navbar button:hover {
+  opacity: 0.8;
 }
 
 @media (max-width: 1399.98px) {
@@ -191,17 +194,17 @@ body {
     display: flex;
     flex-direction: row;
   }
-  .navbar .navbar-nav {
-    margin-left: 15%;
-  }
 }
 @media (max-width: 1199.98px) {
   .navbar .icon {
     display: flex;
     flex-direction: row;
   }
-  .navbar .navbar-nav li a {
-    font-size: 15px;
+  .navbar .navbar-brand {
+    margin-left: 0px;
+  }
+  .navbar .navbar-nav {
+    margin-left: 40%;
   }
 }
 @media (max-width: 991.98px) {
@@ -214,10 +217,10 @@ body {
     margin-left: 0px;
   }
   .navbar .navbar-nav {
-    margin-left: 0%;
+    margin-left: -11%;
   }
   .navbar .navbar-nav li a {
-    font-size: 18px;
+    font-size: 15px;
   }
 }
 @media (max-width: 767.98px) {
@@ -227,13 +230,9 @@ body {
   }
   .navbar .navbar-brand {
     font-size: 24px;
-    margin-left: 0px;
-  }
-  .navbar .navbar-nav {
-    margin-left: 0%;
   }
   .navbar .navbar-nav li a {
-    font-size: 18px;
+    font-size: 15px;
   }
 }
 @media (max-width: 575.98px) {
@@ -245,11 +244,8 @@ body {
     font-size: 24px;
     margin-left: 0px;
   }
-  .navbar .navbar-nav {
-    margin-left: 0%;
-  }
   .navbar .navbar-nav li a {
-    font-size: 18px;
+    font-size: 15px;
   }
 }
 .hero {
@@ -309,26 +305,38 @@ body {
 }
 
 @media (max-width: 1199.98px) {
+  .hero {
+    margin-top: 0%;
+  }
   .hero h1 {
-    margin-left: -14%;
+    margin-left: -30%;
   }
   .hero h5 {
-    margin-left: -14%;
+    margin-left: -30%;
   }
   .hero .photo {
     display: flex;
   }
   .hero .photo img {
-    margin-left: 40%;
+    margin-left: 0%;
   }
 }
 @media (max-width: 991.98px) {
+  .hero {
+    margin-top: 0%;
+  }
+  .hero h1 {
+    margin-left: -30%;
+  }
+  .hero h5 {
+    margin-left: -30%;
+  }
   .hero .photo {
     display: flex;
   }
   .hero .photo img {
-    margin-top: 10%;
-    margin-left: 3%;
+    margin-top: 5%;
+    width: 90%;
   }
 }
 @media (max-width: 767.98px) {
@@ -342,7 +350,7 @@ body {
   }
   .hero .photo {
     margin-top: 50px;
-    margin-right: 0%;
+    margin-left: -15%;
   }
   .hero .photo img {
     margin: 0;
@@ -363,11 +371,12 @@ body {
     margin-left: -25%;
   }
   .hero .photo {
-    display: flex;
+    margin-bottom: 50%;
   }
   .hero .photo img {
-    margin-top: 1em;
-    margin-right: 10em;
+    width: 95%;
+    height: 95%;
+    margin-left: 0%;
   }
   .row .btn {
     margin-left: 15%;
@@ -413,14 +422,6 @@ body {
 }
 
 @media (max-width: 991.98px) {
-  .aboutMe .container-fluid h1 {
-    font-size: 128px;
-  }
-}
-@media (max-width: 767.98px) {
-  .aboutMe .container-fluid h1 {
-    font-size: 128px;
-  }
   .aboutMe .container {
     position: absolute;
     width: 70%;
@@ -431,7 +432,20 @@ body {
     padding: 3%;
     line-height: 26px;
     font-style: normal;
-    font-size: 20px;
+  }
+}
+@media (max-width: 767.98px) {
+  .aboutMe .container {
+    position: absolute;
+    width: 70%;
+    left: 20%;
+    border-radius: 5px;
+  }
+  .aboutMe .container p {
+    padding: 3%;
+    line-height: 26px;
+    font-style: normal;
+    font-size: 15px;
   }
 }
 @media (max-width: 575.98px) {
@@ -448,7 +462,7 @@ body {
     padding: 3%;
     line-height: 26px;
     font-style: normal;
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 .skills {
@@ -479,7 +493,7 @@ body {
 }
 @media (max-width: 575.98px) {
   .skills {
-    margin-top: 40em;
+    margin-top: 15em;
   }
   .skills img {
     width: 80px;
@@ -563,6 +577,7 @@ body {
   height: 20px;
   border-radius: 100%;
   background-color: #eeeeee;
+  border: none;
 }
 .projects .operation__project button:hover {
   opacity: 0.5;
@@ -580,22 +595,17 @@ body {
     margin-top: 20%;
   }
   .projects h1 {
-    font-size: 128px;
     margin-bottom: 2%;
   }
 }
 @media (max-width: 767.98px) {
-  .projects .container {
-    padding-left: 20%;
+  .projects h1 {
+    margin-bottom: 5%;
   }
 }
 @media (max-width: 575.98px) {
   .projects h1 {
-    font-size: 68px;
-    margin-bottom: -15%;
-  }
-  .projects .container {
-    margin: 0;
+    margin-bottom: 15%;
   }
 }
 .footer {
@@ -637,18 +647,12 @@ body {
 @media (max-width: 575.98px) {
   .footer {
     font-size: 12px;
-    margin-top: 10em;
-    height: 60px;
   }
   .footer .container-fluid {
     display: flex;
     justify-content: center;
     align-items: center;
     align-self: center;
-  }
-  .footer .container-fluid p {
-    margin-top: 2%;
-    padding: 3%;
   }
 }
 @-webkit-keyframes myrotation {

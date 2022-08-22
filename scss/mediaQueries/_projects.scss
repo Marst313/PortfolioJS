@@ -19,7 +19,6 @@
   .projects {
     margin-top: 20%;
     h1 {
-      font-size: 128px;
       margin-bottom: 2%;
     }
   }
@@ -31,8 +30,8 @@
   //     background-color: pink;
   //   }
   .projects {
-    .container {
-      padding-left: 20%;
+    h1 {
+      margin-bottom: 5%;
     }
   }
 }
@@ -44,11 +43,7 @@
   //   }
   .projects {
     h1 {
-      font-size: 68px;
-      margin-bottom: -15%;
-    }
-    .container {
-      margin: 0;
+      margin-bottom: 15%;
     }
   }
 }

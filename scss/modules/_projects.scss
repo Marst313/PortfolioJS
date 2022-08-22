@@ -75,6 +75,7 @@ $text-color: #eeeeee;
       height: 20px;
       border-radius: 100%;
       background-color: $text-color;
+      border: none;
       &:hover {
         opacity: 0.5;
       }

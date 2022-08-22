@@ -17,25 +17,6 @@
   //     background-color: green;
   //   }
   .aboutMe {
-    .container-fluid {
-      h1 {
-        font-size: 128px;
-      }
-    }
-  }
-}
-
-// Small devices (landscape phones, less than 768px)
-@media (max-width: 767.98px) {
-  //   * {
-  //     background-color: pink;
-  //   }
-  .aboutMe {
-    .container-fluid {
-      h1 {
-        font-size: 128px;
-      }
-    }
     .container {
       position: absolute;
       width: 70%;
@@ -47,7 +28,29 @@
 
         line-height: 26px;
         font-style: normal;
-        font-size: 20px;
+      }
+    }
+  }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  //   * {
+  //     background-color: pink;
+  //   }
+  .aboutMe {
+    .container {
+      position: absolute;
+      width: 70%;
+      left: 20%;
+      border-radius: 5px;
+
+      p {
+        padding: 3%;
+
+        line-height: 26px;
+        font-style: normal;
+        font-size: 15px;
       }
     }
   }
@@ -75,7 +78,7 @@
         line-height: 26px;
 
         font-style: normal;
-        font-size: 20px;
+        font-size: 15px;
       }
     }
   }
