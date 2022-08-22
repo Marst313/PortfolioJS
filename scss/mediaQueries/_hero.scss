@@ -1,42 +1,50 @@
 // X-Large devices (large desktops, less than 1400px)
 @media (max-width: 1399.98px) {
-  //   * {
-  //     background-color: red;
-  //   }
+  // * {
+  //   background-color: red;
+  // }
 }
 
 // Large devices (desktops, less than 1200px)
 @media (max-width: 1199.98px) {
-  //   * {
-  //     background-color: yellow;
-  //   }
+  // * {
+  //   background-color: yellow;
+  // }
   .hero {
+    margin-top: 0%;
     h1 {
-      margin-left: -11%;
+      margin-left: -30%;
     }
 
     h5 {
-      margin-left: -11%;
+      margin-left: -30%;
     }
     .photo {
       display: flex;
       img {
-        margin-left: 20%;
+        margin-left: 0%;
       }
     }
   }
 }
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
-  //   * {
-  //     background-color: green;
-  //   }
+  // * {
+  //   background-color: green;
+  // }
   .hero {
+    margin-top: 0%;
+    h1 {
+      margin-left: -30%;
+    }
+    h5 {
+      margin-left: -30%;
+    }
     .photo {
       display: flex;
       img {
-        margin: 0;
-        margin-left: 3%;
+        margin-top: 5%;
+        width: 90%;
       }
     }
   }
@@ -51,11 +59,15 @@
     h1 {
       font-size: 30px;
       line-height: 50px;
+      margin-left: -29%;
+    }
+    h5 {
+      margin-left: -29%;
     }
 
     .photo {
       margin-top: 50px;
-      margin-right: 0%;
+      margin-left: -15%;
       img {
         margin: 0;
         width: 200px;
@@ -67,27 +79,27 @@
 
 // X-Small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
-  //   * {
-  //     background-color: blue;
-  //   }
+  // * {
+  //   background-color: blue;
+  // }
   .hero {
     margin-top: 10%;
 
     h1 {
-      margin-left: -18%;
+      margin-left: -25%;
 
-      font-size: 25px;
+      font-size: 20px;
       line-height: 30px;
     }
     h5 {
-      margin-left: -18%;
+      margin-left: -25%;
     }
     .photo {
-      display: flex;
-
+      margin-bottom: 50%;
       img {
-        margin-top: 1em;
-        margin-right: 10em;
+        width: 95%;
+        height: 95%;
+        margin-left: 0%;
       }
     }
   }

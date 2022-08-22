@@ -1,13 +1,14 @@
 // variable
-$primary-color: #2c3639;
-$text-color: #dcd7c9;
+$primary-color: #0f0e0e;
+$text-color: #eeeeee;
 
 .navbar {
-  border-bottom: 3px solid #191b1b;
+  opacity: 0.9;
+  border-bottom: 1px solid #eeeeee26;
   background-color: $primary-color;
 
   .navbar-brand {
-    margin-left: 2%;
+    margin-left: 10%;
     font-size: 30px;
     font-family: EB Garamond;
     img {
@@ -21,12 +22,15 @@ $text-color: #dcd7c9;
     text-shadow: 2px 2px #171c1c;
   }
   .navbar-nav {
-    margin-left: 25%;
+    margin-left: 55%;
+
+    .nav-item {
+      margin-left: 10%;
+    }
 
     li {
-      align-items: center;
       a {
-        font-size: 24px;
+        font-size: 16px;
         &:hover {
           color: #dcd7c954;
         }
@@ -37,8 +41,11 @@ $text-color: #dcd7c9;
     }
   }
   button {
-    background-color: #3f4e4f;
+    background-color: #0f1212;
     color: transparent;
-    border: 3px solid #161c1d;
+    border: 2px solid $text-color;
+    &:hover {
+      opacity: 0.8;
+    }
   }
 }
