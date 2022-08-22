@@ -1,9 +1,13 @@
 // variable
 $primary-color: #2c3639;
-$text-color: #dcd7c9;
+$text-color: #eeeeee;
 .hero {
-  margin-top: 8%;
-  //   background-color: red;
+  &:hover {
+    background-color: rgba(15, 14, 14, 0.6);
+  }
+  max-height: 500px;
+  background-color: #0f0e0e;
+  margin-top: 8em;
 
   h1 {
     color: $text-color;
@@ -11,7 +15,8 @@ $text-color: #dcd7c9;
     line-height: 50px;
     text-shadow: 2px 2px #576f72;
     .name {
-      color: #ca3636;
+      color: #8b9a46;
+      text-shadow: none;
     }
     .type {
       text-shadow: 2px 2px #576f72;
@@ -30,19 +35,19 @@ $text-color: #dcd7c9;
   }
   .photo {
     img {
-      margin-left: 35%;
-      background: $primary-color;
-      width: 300px;
-      height: 300px;
-      box-shadow: 0px 0px 25px 5px black;
-      border-color: transparent;
-
+      margin-top: 5%;
+      margin-bottom: 5%;
+      background-color: #0f0e0ef7;
+      box-shadow: 0px 0px 45px 5px rgba(0, 0, 0, 0.5);
       &:hover {
         box-shadow: 0px 0px 45px 5px rgba(0, 0, 0);
       }
     }
   }
   .row {
+    .text {
+      margin-left: 10%;
+    }
     button {
       font-size: 12px;
       background-color: $primary-color;

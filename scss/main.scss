@@ -131,8 +131,8 @@ table {
 // reset
 
 // variable
-$primary-color: #2c3639;
-$text-color: #dcd7c9;
+
+$text-color: #eeeeee;
 
 @font-face {
   font-family: Roboto Slab;
@@ -145,20 +145,7 @@ $text-color: #dcd7c9;
 
 body {
   font-family: Roboto Slab;
-  background: linear-gradient(
-    160deg,
-    rgba(53, 64, 68, 1) 0%,
-    rgba(70, 85, 89, 1) 10%,
-    rgba(74, 91, 96, 1) 20%,
-    rgba(79, 97, 102, 1) 30%,
-    rgba(97, 118, 125, 1) 40%,
-    rgba(119, 149, 158, 1) 50%,
-    rgba(97, 118, 125, 1) 60%,
-    rgba(79, 97, 102, 1) 70%,
-    rgba(74, 91, 96, 1) 80%,
-    rgba(70, 85, 89, 1) 90%,
-    rgba(53, 64, 68, 1) 100%
-  );
+  background: #0f0e0ef7;
 
   background-repeat: no-repeat;
   background-size: cover;
